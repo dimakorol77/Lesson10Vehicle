@@ -1,3 +1,5 @@
+package Vehicle;
+
 public class Ship extends Vehicle {
 
     private int PassengersQuantaty;

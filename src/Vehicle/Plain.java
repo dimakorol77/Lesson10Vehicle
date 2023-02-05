@@ -1,3 +1,5 @@
+package Vehicle;
+
 public class Plain extends Vehicle {
     private int Height;
     private int PassengersQuantaty;
@@ -20,7 +22,7 @@ public class Plain extends Vehicle {
     }
 
     public String toString()
-    { return   getPrice()+" "+ getSpeed()+" " + getYear()+ " "+ Height+" "+ PassengersQuantaty; }
+    { return getPrice()+" "+ getSpeed()+" " + getYear()+ " "+ Height+" "+ PassengersQuantaty; }
 
 
 
